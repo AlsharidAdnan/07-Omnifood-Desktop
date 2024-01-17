@@ -244,7 +244,7 @@
 
 .step-img {
     width: 35%;
-    /* z-index: 10; */
+
 }
 /**************************/
 /* MEALS SECTION */
@@ -400,26 +400,26 @@
     padding: 9.6rem 0;
 }
 
-.princing-plan {
+.pricing-plan {
     border-radius: 11px;
 
     width: 75%;
 }
 
-.princing-plan--starter {
+.pricing-plan--starter {
     justify-self: end;
     border: 2px solid #fdf2e9;
     padding: 4.6rem;
 }
 
-.princing-plan--complete {
+.pricing-plan--complete {
     background-color: #fdf2e9;
     padding: 4.8rem;
     position: relative;
     overflow: hidden;
 }
 
-.princing-plan--complete::after {
+.pricing-plan--complete::after {
     content: "Best value";
     position: absolute;
     top: 6%;
@@ -499,34 +499,17 @@
     font-size: 1.8rem;
     line-height: 1.8;
 }
-/**************************/
-/* CTA SECTION */
-/**************************/
-/*.section-cta {*/
-/*    padding: 9.8rem 0;*/
-/*}*/
-/*.cta {*/
-/*    display: grid;*/
-/*    grid-template-columns: 2fr 1fr;*/
-/*    background-color: #e67e22;*/
-/*}*/
 
-/***************************!*/
-/* CTA SECTION */
-/**************************/
 
 .section-cta {
-    /* top / right / bottom / left */
-    /* padding: 9.6rem 0 12.8rem 0; */
 
-    /* top / horizontal / left */
     padding: 4.8rem 0 12.8rem;
 }
 
 .cta {
     display: grid;
     grid-template-columns: 2fr 1fr;
-    /* background-color: #e67e22; */
+
     box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
     border-radius: 11px;
 
@@ -540,7 +523,6 @@
 }
 
 .cta .heading-secondary {
-    /* color: #45260a; */
     color: inherit;
     margin-bottom: 3.2rem;
 }
